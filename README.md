@@ -3,9 +3,9 @@
 CRUD-APP
 
 
--CRUD-APP #README #Introduction Welcome to -CRUD-APP, a simple and powerful CRUD (Create, Read, Update, Delete) application that allows you to perform basic operations on data entities. Whether you are building a web application, mobile app, or any other software that requires data management, -CRUD-APP has got you covered.
+-CRUD-APP # README # Introduction Welcome to -CRUD-APP, a simple and powerful CRUD (Create, Read, Update, Delete) application that allows you to perform basic operations on data entities. Whether you are building a web application, mobile app, or any other software that requires data management, -CRUD-APP has got you covered.
 
-#Getting Started
+# Getting Started
 To begin using -CRUD-APP, follow these steps: Make sure you install Node.js [ https://nodejs.org/en ] on your locall machine
 
 Install Dependencies: Navigate to the project directory and install the required dependencies.
@@ -21,7 +21,7 @@ By default, the application will run on [ http://localhost:7700/ ]. You can acce
 
 API Endpoints CRUD-APP provides the following API endpoints for managing data:
 
-#POST:
+# POST: CREATE
 [ /api/products/create ]
 Create a new resource. Request Body: JSON with resource data.
 [
@@ -35,19 +35,19 @@ quantity: string
 ]
 
 
-#GET:  
+# GET: READ
 [ /api/products/all ]
 Retrieve details of all resource.
 
-#GET:
+# GET: READ
 [ /api/products/:id ]
 Retrieve details of a specific resource. Parameters: id - Resource identifier.
 
-#PUT:
+# PUT: UPDATE
 [ /api/products/:id ]
 Update an existing resource. Parameters: id - Resource identifier. Request Body: JSON with updated resource data.
 
-#DELETE:
+# DELETE: DELETE
 [ /api/products/:id ]
 Delete a resource. Parameters: id - Resource identifier.
 
